@@ -17,7 +17,7 @@ async def on_ready():
     print('Logged in as '+client.user.name+' (ID:'+client.user.id+') | Connected to '+str(len(client.servers))+' servers | Connected to '+str(len(set(client.get_all_members())))+' users')
     print('--------')
     print('--------')
-    print('CREATED AND HOSTED BY INVADER OP')
+    print('CREATED AND HOSTED BY HAPPY OP')
 
 @client.command(pass_context = True)
 @commands.has_permissions(kick_members=True)     
@@ -44,4 +44,4 @@ async def send(ctx, *, content: str):
                 await client.say("DM can't Sent To : {} :x: ".format(member))
 
 
-client.run("NzA0NTEyNDA2MzYxMDc5ODQ4.XqeQxQ.Q180EtRfeW7wOk3iu70sYvPgMR8")                
+client.run("NzE5MDM2OTAxMzA2MjY5NzI2.XvwHgw.sZBeripBejbZqqREd0fQCUr0ojQ")                
